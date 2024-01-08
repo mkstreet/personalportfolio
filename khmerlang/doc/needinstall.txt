@@ -1,0 +1,28 @@
+Package installations needed:
+-----------------------------
+
+sudo apt install python3.10-venv
+
+python3 -m venv .venv
+
+source .venv/bin/activate
+
+pip install nltk
+
+create .vscode/settings.json
+  {
+    "python.pythonPath": ".venv/bin/python"
+}
+
+
+
+
+
+(.venv) mark@mark-Veriton-M490G:~/gitprojects/personalportfolio/khmerlang$ python
+Python 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import nltk
+>>> nltk.download()
+
+
+

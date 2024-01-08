@@ -1,4 +1,4 @@
-#!/home/mark/gitprojects/personalportfolio/khmerlang/.venv/bin/python3
+#!/home/mark-bmax2/gitprojects/personalportfolio/khmerlang/.venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

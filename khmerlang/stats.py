@@ -14,3 +14,7 @@ class Stats:
         self.wordcount = self.wordcount + lineoftext.getWordCount()
         self.sentencecount = self.sentencecount + lineoftext.getSentenceCount()
         return
+
+    def printStats(self):
+        print("Word count = ", self.wordcount, "; Sentence count = ", self.sentencecount)
+        return

@@ -13,4 +13,4 @@ st.accumulateCounts(lot)
 wft.accumulateFrequency(lot)
 
 st.printStats()
-wft.printWordFreqList()
+wft.writeWordFreqList()
